@@ -18,6 +18,8 @@
 </head>
 
 <body>
+
+    <!--Nav Bar-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">>
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#patelNavbar">
@@ -25,16 +27,16 @@
             </button>
             <div class="collapse navbar-collapse" id="patelNavbar">
                 <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info-circle fa-lg"></i> About</a></li>
                 <li class="nav-item"><a class="nav-link" href="idportfolio.html"><i class="fa fa-book fa-lg"></i> ID Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="webdevportfolio.html"><i class="fa fa-hdd-o fa-lg"></i> Web Dev Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contact.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
+        
     <!--Header Jumbotron-->
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -51,46 +53,86 @@
         </div>
     </header>
 
-    <!--Nav Bar-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Contact</li>
+                </ol>
+                <h2>Contact Me</h2>
+                <hr />
+            </div>
+        </div>
 
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col">
+                <h3>Located in San Diego, CA </h3>            
+                <div class="media">
+                    <img class="d-flex mr-1 img-thumbnail" src="img/location.map.jpg" class="img-fluid" alt="San Diego" />
+                    <div class="media-body align-self-center">
+                    </div>
+                </div>
+            <div class="col">   
+                <a role="button" class="btn btn-link" href="tel:+12-65551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br>
+                <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+            </div>
+        </div>
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="row row-content">
+                <div class="col-12">
+                    <h2>Send me a Message</h2>
+                    <hr />
+                </div>
+                <div class="col-md-10">
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                            </div>    
+                        </div>
+                        <div class="form-group row">
+                            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                            </div>
+                            <div class="col-7">    
+                                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="form-group row">       
+                            <label for="message" class="col-md-2 col-form-label">Your Message</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">   
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>  
+                        </div>    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!--Body Index-->
-    <div class="container-fluid">
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sml-last col-md-3">
-                <h2 class= "text-sm-right">About Me</h2>
-            </div>
-            <div class="col">
-                <h3>I create products that work for you. </h3>
-                <p>My services include:</p>
-                <ul class="list">
-                    <li>Creating corporate eLearning materials</li>
-                    <li>Tracking eLearning without the need for a Learning Management System (LMS)</li>
-                    <li>Website and Mobile App development</li>
-                    <li>Using custom code to create advanced eLearning functionality)</li>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2 class= "text-sm-right">My eLearning Projects</h2>
-            </div>
-            <div class="col">
-                <h3>Our Campsites</h3>
-                <p>Explore our growing database of curated campsites and leave your own reviews!</p>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sml-last col-md-3">
-                <h2 class= "text-sm-right">My Coding Projects</h2>
-            </div>
-            <div class="col">
-                <h3>Our Campsites</h3>
-                <p>Explore our growing database of curated campsites and leave your own reviews!</p>
-            </div>
-        </div>
-    <div>
-     
-    <!--Footer-->   
+    <!--Footer-->    
     <footer class="site-footer">
         <div class="container">
             <div class="row">             
@@ -118,7 +160,7 @@
                 </div>               
             </div>
         </div>
-    </footer>                
+    </footer>  
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
