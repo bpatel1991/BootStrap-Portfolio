@@ -15,15 +15,8 @@ header h2 {
 }
 
 footer {
-    background-color: #75cae4;
+    background-color: #b3b3b3;
     padding: 20px 0;
-}
-
-.jumbotron {
-    margin:0;
-    padding: 30px;
-    background-color: #75cae4;
-    color:black;
 }
 
 .row-content {
@@ -34,3 +27,13 @@ footer {
 .navbar {
      background-color: white;
 }
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
